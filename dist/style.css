@@ -1,3 +1,7 @@
+:root {
+    --header-footer-color: rgb(20, 20, 20, 0.35);
+}
+
 body {
     background: no-repeat url(./images/pizza-background.jpg);
     background-position: center center;
@@ -14,5 +18,31 @@ ul {
     padding: 12px 0;
     margin: 0;
     font-size: 1.4rem;
-    background-color: rgb(20, 20, 20, 0.3);
+    background-color: var(--header-footer-color);
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: var(--header-footer-color);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a > img {
+    height: 2rem;
+    margin-left: 5px;
 }
