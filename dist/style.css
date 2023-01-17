@@ -3,4 +3,16 @@ body {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0;
+}
+
+ul {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 0;
+    margin: 0;
+    font-size: 1.4rem;
+    background-color: rgb(20, 20, 20, 0.3);
 }
