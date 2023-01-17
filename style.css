@@ -1,0 +1,6 @@
+body {
+    background: no-repeat url(./images/pizza-background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
