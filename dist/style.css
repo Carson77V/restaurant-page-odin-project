@@ -21,6 +21,16 @@ ul {
     background-color: var(--header-footer-color);
 }
 
+h1, p {
+    color: white
+}
+
+.title-div {
+    position: absolute;
+    right: 12%;
+    margin: 0 100px;
+}
+
 footer {
     position: absolute;
     bottom: 0px;
