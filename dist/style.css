@@ -2,6 +2,11 @@
     --header-footer-color: rgb(20, 20, 20, 0.35);
 }
 
+@font-face {
+    font-family: Miama;
+    src: url(fonts/Miama.ttf);
+}
+
 body {
     background: no-repeat url(./images/pizza-background.jpg);
     background-position: center center;
@@ -21,14 +26,25 @@ ul {
     background-color: var(--header-footer-color);
 }
 
-h1, p {
-    color: white
+h1 {
+    font-size: 12rem;
+    margin: 0;
+    font-family: Miama;
+    line-height: 0.9;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: serif;
+    margin: 10px 0;
 }
 
 .title-div {
     position: absolute;
-    right: 12%;
-    margin: 0 100px;
+    right: max(16%, 50px);
+    margin: 75px 0 75px 50px;
+    color: white;
+    max-width: 600px;
 }
 
 footer {
