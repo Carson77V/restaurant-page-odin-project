@@ -7,6 +7,8 @@
     src: url(fonts/Miama.ttf);
 }
 
+/*body and header styles*/
+
 body {
     background: no-repeat url(./images/pizza-background.jpg);
     background-position: center center;
@@ -25,6 +27,8 @@ ul {
     font-size: 1.4rem;
     background-color: var(--header-footer-color);
 }
+
+/*Homepage styles*/
 
 h1 {
     font-size: 12rem;
@@ -46,6 +50,22 @@ p {
     color: white;
     max-width: 600px;
 }
+
+/*Menu page styles*/
+
+/*About page styles*/
+
+.about-box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-box > div {
+    display: flex;
+    flex-direction: column;
+}
+
+/*all styles for the footer below here*/
 
 footer {
     position: absolute;
