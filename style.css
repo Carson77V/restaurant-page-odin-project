@@ -41,7 +41,7 @@ h1 {
     line-height: 0.9;
 }
 
-p {
+.title-div > p {
     font-size: 1.5rem;
     font-family: serif;
     margin: 10px 0;
@@ -63,16 +63,31 @@ p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255, 0.75);
     border-radius: 10px;
     width: 88vw;
+    max-width: 1080px;
     margin: 20px auto;
+}
+
+.about-box > div > p {
+    font-size: 1.2rem;
+    margin: 10px 0
+}
+
+.about-box > div > h2 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+
+.about-box > div > h3 {
+    margin: 1rem 0;
 }
 
 .about-box > div {
     display: flex;
     flex-direction: column;
-    width: clamp(300px, 40%,500px);
+    width: max(40%, 280px);
     margin: 10px;
 }
 
