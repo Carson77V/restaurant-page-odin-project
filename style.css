@@ -32,10 +32,6 @@ ul {
     background-color: var(--header-footer-color);
 }
 
-#content {
-    flex: 1 0 auto;
-}
-
 /*Homepage styles*/
 
 h1 {
@@ -64,10 +60,13 @@ p {
 /*About page styles*/
 
 .about-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, clamp(300px, 40%, 500px));
-    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255, 0.8);
     border-radius: 10px;
+    width: 88vw;
+    margin: 20px auto;
 }
 
 .about-box > div {
