@@ -16,7 +16,18 @@ btns.forEach(btn => {
         if (event.target.id != currentContent.classList.value) {
             //remove current content
             currentContent.remove()
+            addContent(event.target.id)
         }
     })
 })
 
+//adds content to the webpage
+function addContent(id) {
+    switch(id) {
+        case 'title-div': homepage();
+        break;
+        case 'menu-box': menuPage();
+        break;
+        case 'about-box': aboutPage();
+    }
+}
