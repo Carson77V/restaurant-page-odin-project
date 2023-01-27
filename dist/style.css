@@ -73,7 +73,7 @@ h1 {
 .menu-card {
     width: auto;
     height: 270px;
-    background-color: rgb(247, 232, 15, 0.8);
+    background-color: rgb(240, 230, 15, 0.8);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
